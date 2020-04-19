@@ -16,7 +16,7 @@ namespace MyLibrary
         public Form1()
         {
             InitializeComponent();
-            string cs = "server=192.168.0.16;port=3306;username=root;password=SqlAdmin;database=testdb";
+            string cs = "server=x.x.x.x;port=3306;username=root;password=SqlAdmin;database=testdb";
             MySqlConnection connection = new MySqlConnection(cs);
             connection.Open();
             string query = "select * from students";
